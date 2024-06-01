@@ -15,8 +15,8 @@ It will replace single-line comments `//` and multi-line comments `/**/` with wh
 
 ## Usage
 
-```js
-import stripJsonComments from 'strip-json-comments';
+```c#
+using Snork.JsonCommentStripper;
 
 string json = @"{
 	// Rainbows
@@ -29,7 +29,7 @@ Console.WriteLine(Stripper.Execute(json));
 
 ## API
 
-### Stripper.StripJsonComments(jsonString, options?)
+### Stripper.StripJsonComments(string input, StripperOptions options = null)
 
 #### input
 
@@ -57,4 +57,4 @@ Replace comments and trailing commas with whitespace instead of stripping them e
 
 ## Related
 
-This code is adapted from a Javascript version by [Sindre Sorhus](https://github.com/sindresorhus). 
+This code is adapted from a JavaScript version by [Sindre Sorhus](https://github.com/sindresorhus). 
