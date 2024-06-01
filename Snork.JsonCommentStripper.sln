@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snork.JsonCommentStripper.Tests", "test\Snork.JsonCommentStripper.Tests\Snork.JsonCommentStripper.Tests.csproj", "{5EFB0BDB-0BC7-49BC-B702-61CEF3C65803}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Snork.JsonCommentStripper", "src\Snork.JsonCommentStripper\Snork.JsonCommentStripper.csproj", "{61A1302A-7FAD-4F76-B69F-D13830BF0103}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EFB0BDB-0BC7-49BC-B702-61CEF3C65803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EFB0BDB-0BC7-49BC-B702-61CEF3C65803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EFB0BDB-0BC7-49BC-B702-61CEF3C65803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EFB0BDB-0BC7-49BC-B702-61CEF3C65803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A1302A-7FAD-4F76-B69F-D13830BF0103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A1302A-7FAD-4F76-B69F-D13830BF0103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A1302A-7FAD-4F76-B69F-D13830BF0103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A1302A-7FAD-4F76-B69F-D13830BF0103}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13DEC407-84FE-470A-8BA8-CEB8E8F139AB}
+	EndGlobalSection
+EndGlobal
