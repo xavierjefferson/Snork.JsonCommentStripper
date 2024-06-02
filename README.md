@@ -1,4 +1,5 @@
 ﻿# Snork.JsonCommentStripper
+[![Latest version](https://img.shields.io/nuget/v/Snork.JsonCommentStripper.svg)](https://www.nuget.org/packages/Snork.JsonCommentStripper/) 
 
 > Strip comments from JSON. Lets you use comments in your JSON files!
 

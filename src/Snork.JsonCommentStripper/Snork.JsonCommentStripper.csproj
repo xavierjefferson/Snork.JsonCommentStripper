@@ -6,6 +6,22 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Snork.JsonCommentStripper</Title>
+    <PackageTags>json;strip;comments;remove;delete;trim;multiline;parse;config;configuration;settings;util;env;environment;jsonc;</PackageTags>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/xavierjefferson/Snork.JsonCommentStripper</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/xavierjefferson/Snork.JsonCommentStripper</PackageProjectUrl>
+    <Copyright>(c) 2024 Xavier Jefferson.  All rights reserved.</Copyright>
+    <Description>Strip comments from JSON. Lets you use comments in your JSON files!</Description>
+    <Authors>XavierJefferson</Authors>
+    <Company />
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
